@@ -1,0 +1,44 @@
+.navbar{
+    width:100%;
+    background-color: rgb(0, 14, 42);
+    height: 50px;
+}
+
+.navbar .title{
+    font-size: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 600;
+    color:white;
+    display: inline-block;
+    float: left;
+    text-align: left;
+    padding: 5px;
+    width:45%;
+}
+
+.navbar .menu-container{
+    display: inline-block;
+    float: right;
+    width:50%;
+    text-align: right;
+}
+
+.menu-container .menu{
+    width: 16%;
+    display: inline-block;
+    background-color: azure;
+    vertical-align: top;
+    padding: 10px;
+    margin: 5px;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 500;
+    color: rgb(0, 14, 42);
+    cursor: pointer;
+}
+
+.menu-container .menu:hover{
+    background-color: rgb(0, 14, 42);
+    color: white;
+    border: 2px solid white;
+}
